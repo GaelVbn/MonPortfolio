@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className="flex w-full h-full md:h-fit  md:mt-28 text-black items-center justify-evenly md:justify-between font-light text-[12px] md:pr-40 md:pl-20">
       <div className="hidden md:flex md:w-fit md:h-fit ">
         <Image
-          src="/GV-LOGO.png"
+          src="/home.png"
           alt="Vercel Logo"
           width={45}
           height={45}
