@@ -118,7 +118,7 @@ const Navbar = () => {
           className="cursor-pointer hover:scale-105 w-12 h-12 mr-2"
           onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1kWZiBBGLuAJAOy60XRAXmZn9xPMywaew/view?usp=sharing"
+              "https://drive.google.com/file/d/1xUfYQmJ_D0fDMSsSA3X5N0I9MXUmIbkw/view?usp=sharing"
             )
           }
         >
