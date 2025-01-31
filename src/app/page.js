@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 export default function Home() {
   return (
-    <main className="flex flex-col justify-between w-screen h-screen bg-[#F0EBE2] md:items-center">
+    <main className="flex flex-col justify-between w-screen h-screen bg-[#F0EBE2] md:items-center ">
       <header className="w-full h-24 md:h-64 ">
         <Navbar />
       </header>
@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="flex items-center justify-center w-full h-16 text-[9px] text-black  md:">
+      <footer className="flex items-center justify-center w-full h-16 text-[9px] text-black md:bg-[#F0EBE2] ">
         © {new Date().getFullYear()} Gaël Vanbeveren - Tous droits réservés
       </footer>
     </main>
