@@ -59,6 +59,21 @@ const Navbar = () => {
       </div>
 
       <div className="flex gap-5 md:hidden">
+        <Image
+          src="/home.png"
+          alt="Vercel Logo"
+          width={20}
+          height={20}
+          style={{
+            width: "auto",
+            height: "auto",
+            cursor: "pointer",
+          }}
+          priority
+          onClick={() => {
+            window.location.href = "/";
+          }}
+        />
         <a
           href="/workflow"
           className="hover:scale-105"

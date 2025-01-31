@@ -10,8 +10,8 @@ export default function Home() {
       </header>
       <section className="flex flex-col md:flex-row justify-evenly p-10 w-full md:w-4/5 h-full text-black md:pt-32  md:ml-24 md:gap-40 ">
         <div className="flex flex-col w-full h-fit md:w-3/4  text-start  gap-6 ">
-          <h1 className="text-6xl ">Gael Vanbeveren</h1>
-          <h2 className="text-3xl ">Développeur FullStack</h2>
+          <h1 className="text-5xl md:text-6xl ">Gael Vanbeveren</h1>
+          <h2 className=" text-2xl md:text-3xl ">Développeur FullStack</h2>
           <h3 className="text-xs  md:text-xl  italic text-neutral-400">
             "Passionné par la création d'applications innovantes et par
             l'apprentissage continu, je me spécialise dans la Stack MERN pour
